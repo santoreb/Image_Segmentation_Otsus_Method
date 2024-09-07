@@ -6,6 +6,6 @@ The dataset used to test the implementation of this method is the MNIST dataset,
 
 ## Implementation
 The code calculates the max between class variace of all gray scale levels and uses that to segment the image.
-$$\left( \σ_{B}^2 \left(\k \right)$$
+$$\σ_{B}^2 \left(\k \right)$$
 
 ## Results
