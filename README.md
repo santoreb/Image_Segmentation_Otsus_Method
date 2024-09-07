@@ -21,4 +21,5 @@ $\mu_T$: Total mean gray level of the original picture
 
 ## Results
 Below it is possible to see the implementation of the code. The picture on the left represents the original gray image, which different gray level. The picture on the right represents the new image generated, with the digit segmented from the background.
+
 ![Digit 3 original on the left and after object segmentation on the right](https://github.com/santoreb/Image_Segmentation_Otsus_Method/blob/main/Implementation_example.png)
