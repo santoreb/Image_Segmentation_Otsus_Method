@@ -20,3 +20,4 @@ $\mu_k$: Mean gray level up to k level
 $\mu_T$: Total mean gray level of the original picture
 
 ## Results
+Below it is possible to see the implementation of the code. The picture on the left represents the original gray image, which different gray level. The picture on the right represents the new image generated, with the digit segmented from the background.
