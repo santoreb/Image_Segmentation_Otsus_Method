@@ -5,7 +5,7 @@ This code implements Otsu's Method for Image Segmentation described in this pape
 The dataset used to test the implementation of this method is the MNIST dataset, available as part of the torchvision library. More information on the dataset can be found here: https://yann.lecun.com/exdb/mnist/
 
 ## Implementation
-The code calculates the max between class variace $' \sigma_{B}^2 '$ among all gray scale levels k and uses that to segment the image.
+The code calculates the max between class variace $\sigma_{B}^2$ among all gray scale levels k and uses that to segment the image.
 $$\sigma_{B}^2 \(k \) = \frac {\[\mu_T \omega\(k\) - \mu\(k\) \]^2} {\omega\(k\) \[ 1 - \omega\(k\) \]} $$
 
 ## Results
