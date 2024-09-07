@@ -6,11 +6,17 @@ The dataset used to test the implementation of this method is the MNIST dataset,
 
 ## Implementation
 The code calculates the max between class variace $\sigma_{B}^2$ among all gray scale levels k and uses that to segment the image. The formula used for between class variace $\sigma_{B}^2$ is:
+
 $$\sigma_{B}^2 \(k \) = \frac {\[\mu_T \omega\(k\) - \mu\(k\) \]^2} {\omega\(k\) \[ 1 - \omega\(k\) \]}$$
+
 where
+
 k: gray scale level.
+
 $\omega\(k\)$: Probability of k gray scale levels from 1 to k.
+
 $\mu_T$: Total mean gray level of the original picture
+
 $\mu_k$: Mean gray level up to k level
 
 ## Results
