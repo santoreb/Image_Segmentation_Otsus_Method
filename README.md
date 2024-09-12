@@ -25,5 +25,6 @@ Below it is possible to see the implementation of the code. The picture on the l
 ![Digit 3 original on the left and after object segmentation on the right](https://github.com/santoreb/Image_Segmentation_Otsus_Method/blob/main/Implementation_example.png)
 
 ## References
-[1] Li Deng. The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6):141–142, 2012. 1
-[2] NOBUYUKI OTSU. A threshold selection method from gray-level histograms. IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS, (1), 1979
+[1] Li Deng. The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6):141–142, 2012. 1.
+
+[2] NOBUYUKI OTSU. A threshold selection method from gray-level histograms. IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS, (1), 1979.
