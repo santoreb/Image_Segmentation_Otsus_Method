@@ -23,3 +23,7 @@ $\mu_T$: Total mean gray level of the original picture
 Below it is possible to see the implementation of the code. The picture on the left represents the original gray image, which different gray level. The picture on the right represents the new image generated, with the digit segmented from the background.
 
 ![Digit 3 original on the left and after object segmentation on the right](https://github.com/santoreb/Image_Segmentation_Otsus_Method/blob/main/Implementation_example.png)
+
+## References
+[1] Li Deng. The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6):141–142, 2012. 1
+[2] NOBUYUKI OTSU. A threshold selection method from gray-level histograms. IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS, (1), 1979
