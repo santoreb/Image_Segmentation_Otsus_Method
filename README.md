@@ -20,9 +20,13 @@ $\mu_k$: Mean gray level up to k level
 $\mu_T$: Total mean gray level of the original picture
 
 ## Results
-Below it is possible to see the implementation of the code. The picture on the left represents the original gray image, which different gray level. The picture on the right represents the new image generated, with the digit segmented from the background.
+In the Figure below it is possible to see the implementation of the code. The picture on the left represents the original gray image, with different gray levels. Most of the image is black and the number is white, however, around the edges of the number it is possible to see some gray pixels. The picture on the right represents the new image generated, with the digit segmented from the background. In the picture generated there are only black and white pixels. Nothing in between.
 
-![Digit 3 original on the left and after object segmentation on the right](https://github.com/santoreb/Image_Segmentation_Otsus_Method/blob/main/Implementation_example.png)
+![Digits 5 and 0 original on the left and after object segmentation on the right](Image_examples.png)
+
+The Figure below shows the histogram of the intensity of pixels in each of the images shown above. The original image has pixel intensity values from 0 to 255, most of which are either 0 or 255, however, there are some gray levels which can be seeing in the middle bins of the histogram. The image generated after the application of the Otsu's algorithm has pixel intensity values between 0 and 1, it is a binary image.
+
+![Histogram of digits 5 and 0 original on the left and after object segmentation on the right](Histogram_examples.png)
 
 ## References
 [1] Li Deng. The mnist database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 29(6):141–142, 2012. 1.
