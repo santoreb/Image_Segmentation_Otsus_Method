@@ -21,10 +21,7 @@ $\mu_T$: Total mean gray level of the original picture
 
 ## Formula Deduction
 In this section, I will derive the equation below:
-\begin{equation}
-\label{eq1}
-\sigma_B^2 = W_b W_f (\mu_b-\mu_f)^2
-\end{equation}
+$$\sigma_B^2 = W_b W_f (\mu_b-\mu_f)^2 {#eq-1}$$
 
 From the definition of between class variance you can write the following:
 \begin{equation}
