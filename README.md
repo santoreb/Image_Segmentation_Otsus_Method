@@ -20,25 +20,21 @@ $\mu_k$: Mean gray level up to k level
 $\mu_T$: Total mean gray level of the original picture
 
 ## Formula Deduction
-In this section, I will derive the equation below:
-$$\sigma_B^2 = W_b W_f (\mu_b-\mu_f)^2 $$ {#eq-1}
+In this section, I will derive the equation below showed in the Otsu's Method paper:
+
+$$\sigma_B^2 = W_b W_f (\mu_b-\mu_f)^2$$
 
 From the definition of between class variance you can write the following:
-\begin{equation}
-\label{eq2}
-\sigma_B^2 = W_b(\mu_b-\mu)^2 + W_f(\mu_f-\mu)^2
-\end{equation}
+
+$$\sigma_B^2 = W_b(\mu_b-\mu)^2 + W_f(\mu_f-\mu)^2$$
 
 It is also known the following:
-\begin{equation}
-\label{eq3}
-\mu = W_b\mu_b + W_f\mu_f
-\end{equation}
+
+$$\mu = W_b\mu_b + W_f\mu_f$$
 
 Substituting equation \ref{eq3} in \ref{eq2} we have:
 
 \begin{equation}
-\label{eq4}
 \sigma_B^2 = W_b(\mu_b - W_b\mu_b - W_f\mu_f)^2 + W_f(\mu_f - W_b\mu_b - W_f\mu_f)^2
 \end{equation}
 
